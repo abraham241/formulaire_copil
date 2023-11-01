@@ -1,8 +1,11 @@
 import React from "react";
+// import temporaire de la navbar
+import NavBar from "../components/NavBar";
 
 export default function(){
     return(
         <main>
+            <NavBar />
             <div className="flex items-center justify-center h-screen bg-gray-100">
                 <div className="bg-white shadow-md rounded p-8 max-w-md w-full">
                     <img src="src/assets/images/REF.png" alt="logo du copil-formulaire" className="mx-auto mb-4 w-44 h-44" />
